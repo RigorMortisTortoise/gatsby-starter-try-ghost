@@ -94,6 +94,14 @@ module.exports = {
                     {
                         resolve: `gatsby-rehype-prismjs`,
                     },
+
+                    {
+                        resolve: `gatsby-source-ghost`,
+                        options: {
+                          apiUrl: `https://rigor-mortis-tortoise.ghost.io`,
+                          contentApiKey: `2eedc41b22d6f8edbdcf596a49`
+                        }
+                    }
                 ],
             },
         },
